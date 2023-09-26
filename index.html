@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
@@ -20,6 +19,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu+Mono&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link rel="stylesheet" href="index.css" />
 
     <title>Document</title>
   </head>
@@ -50,6 +56,7 @@
       </nav>
       <section>
         <h1 class="buttons-title">Buttons</h1>
+        <!-- default buttons -->
         <div class="container-two-btn">
           <div class="container-btn">
             <label class="default-label"
@@ -67,7 +74,7 @@
             </label>
           </div>
         </div>
-        <!-- second line of buttons -->
+        <!-- buttons variant outline -->
         <div class="container-two-btn">
           <div class="container-btn">
             <label class="default-label"
@@ -86,6 +93,184 @@
               <button class="btn btn-outline-hover" type="button">
                 Default
               </button>
+            </label>
+          </div>
+        </div>
+        <!-- buttons variant text -->
+        <div class="container-two-btn">
+          <div class="container-btn">
+            <label class="default-label"
+              >&lt;Button variant="text"/> <br />
+
+              <button class="btn btn-variant-text" type="button">
+                Default
+              </button>
+            </label>
+          </div>
+
+          <div class="container-btn">
+            <label class="label-grey"
+              >&:hover, &:focus <br />
+
+              <button class="btn btn-text-hover" type="button">Default</button>
+            </label>
+          </div>
+        </div>
+        <!-- button disabled shadow -->
+        <div class="container-two-btn">
+          <div class="container-btn">
+            <label class="default-label"
+              >&lt;Button disableShadow /> <br />
+
+              <button class="btn btn-disabledShadow" type="button">
+                Default
+              </button>
+            </label>
+          </div>
+        </div>
+        <!-- button disabled -->
+        <div class="container-disabled-btn container-two-btn">
+          <div class="container-btn">
+            <label class="default-label"
+              >&lt;Button disabled/> <br />
+
+              <button class="btn btn-disabled" type="button">Disabled</button>
+            </label>
+          </div>
+
+          <div class="container-btn">
+            <label class="label-dark-grey"
+              >&lt;Button variant="text" disabled/> <br />
+
+              <button class="btn btn-text-disabled" type="button">
+                Disabled
+              </button>
+            </label>
+          </div>
+        </div>
+        <!-- button local grocery store -->
+        <div class="container-two-btn container-grocery">
+          <div class="container-btn">
+            <label class="default-label"
+              >&lt;Button startIcon="local_grocery_store"/>
+
+              <button class="btn btn-start-grocery" type="button">
+                <span class="material-symbols-outlined">
+                  add_shopping_cart
+                </span>
+                Default
+              </button>
+            </label>
+          </div>
+
+          <div class="container-btn">
+            <label class="label-dark-grey"
+              >&lt;Button endIcon="local_grocery_store"/>
+
+              <button class="btn btn-end-grocery" type="button">
+                Default
+                <span class="material-symbols-outlined">
+                  add_shopping_cart
+                </span>
+              </button>
+            </label>
+          </div>
+        </div>
+        <!-- button 3 sizes -->
+        <div class="container-three-btn">
+          <div>
+            <label class="default-label"
+              >&lt;Button size="sm"/> <br />
+
+              <button class="btn btn-blue-sm" type="button">Default</button>
+            </label>
+          </div>
+
+          <div class="container-btn">
+            <label class="default-label"
+              >&lt;Button size="md"/> <br />
+
+              <button class="btn btn-disabledShadow" type="button">
+                Default
+              </button>
+            </label>
+          </div>
+
+          <div>
+            <label class="default-label"
+              >&lt;Button size="lg"/> <br />
+
+              <button class="btn btn-blue-lg" type="button">Default</button>
+            </label>
+          </div>
+        </div>
+        <!-- button 4 colours -->
+        <div class="container-four-btn">
+          <div>
+            <label class="default-label"
+              >&lt;Button color="default"/> <br />
+
+              <button class="btn btn-default" type="button">Default</button>
+            </label>
+          </div>
+
+          <div>
+            <label class="default-label"
+              >&lt;Button color="primary"/> <br />
+
+              <button class="btn btn-disabledShadow" type="button">
+                Default
+              </button>
+            </label>
+          </div>
+
+          <div>
+            <label class="default-label"
+              >&lt;Button color="secondary"/> <br />
+
+              <button class="btn btn-secondary" type="button">Default</button>
+            </label>
+          </div>
+          <div>
+            <label class="default-label"
+              >&lt;Button color="danger"/> <br />
+
+              <button class="btn btn-danger" type="button">Default</button>
+            </label>
+          </div>
+        </div>
+        <!-- button hover/focus -->
+        <div class="container-four-btn">
+          <div>
+            <label class="default-label"
+              >&lt;Button color="default"/> <br />
+
+              <button class="btn btn-default" type="button">Default</button>
+            </label>
+          </div>
+
+          <div>
+            <label class="default-label"
+              >&lt;Button color="primary"/> <br />
+
+              <button class="btn btn-disabledShadow" type="button">
+                Default
+              </button>
+            </label>
+          </div>
+
+          <div>
+            <label class="default-label"
+              >&lt;Button color="secondary"/> <br />
+
+              <button class="btn btn-secondary" type="button">Default</button>
+            </label>
+          </div>
+          <div>
+            <label class="default-label"
+              >&lt;Button color="danger"/> <br />
+
+              <button class="btn btn-danger" type="button">Default</button>
             </label>
           </div>
         </div>
