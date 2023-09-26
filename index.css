@@ -1,0 +1,155 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* NavBar */
+
+#brand {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  color: #090f31;
+  width: 114px;
+  height: 20px;
+  padding-top: 38px;
+}
+
+#brand span {
+  color: #f7542e;
+}
+
+.navbar {
+  width: 237px;
+  height: 1234px;
+  margin-top: -9.07px;
+  margin-left: -8.5px;
+  margin-bottom: -9.07px;
+  background-color: #fafbfd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  margin-top: 122px;
+  list-style-type: none;
+  padding-left: 0px;
+  font-family: "Noto Sans JP";
+  font-size: 14px;
+}
+li {
+  padding: 4px;
+}
+a {
+  color: #9e9e9e;
+  text-decoration: none;
+  display: block;
+  padding: 4px;
+}
+
+/* Main */
+
+section {
+  padding-top: 53px;
+  padding-left: 90.5px;
+}
+
+/* Page title */
+
+.buttons-title {
+  color: #4f4f4f;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* Default Btn */
+
+.container-two-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 332px;
+  height: 60px;
+  /* border: 1px solid green; */
+  margin-top: 45px;
+}
+
+.container-btn {
+  width: auto;
+  height: 60px;
+}
+
+/* Basic button */
+.btn {
+  width: 81px;
+  height: 36px;
+  margin-top: 12px;
+  border-radius: 6px;
+  font-family: "Noto Sans JP";
+  color: #3f3f3f;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20.27px;
+  background-color: rgba(224, 224, 224, 1);
+}
+.btn-default {
+  border: none;
+}
+.btn-hover {
+  border: none;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  background-color: rgba(174, 174, 174, 1);
+}
+
+/* Labels */
+.default-label {
+  font-weight: 400;
+  font-family: "Ubuntu Mono";
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.label-grey {
+  font-weight: 400;
+  font-family: "Ubuntu Mono";
+  font-size: 12px;
+  line-height: 12px;
+  color: #828282;
+}
+
+/* Individual btn styles */
+
+/* .btn-hover {
+  border: none;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  background-color: rgba(174, 174, 174, 1);
+} */
+
+.btn-variant-outline {
+  background-color: white;
+  color: #3d5afe;
+  border-color: #3d5afe;
+  border-width: 1px;
+}
+
+.btn-outline-hover {
+  background-color: rgba(41, 98, 255, 0.1);
+  border-color: #3d5afe;
+  border-width: 1px;
+  color: #3d5afe;
+}
+/* Footer */
+
+footer {
+  font-family: "Montserrat";
+  color: grey;
+  font-weight: 500;
+}
+
+footer p span {
+  font-weight: 700;
+}
