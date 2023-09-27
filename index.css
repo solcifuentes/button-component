@@ -123,10 +123,17 @@ section {
   font-size: 14px;
   line-height: 20.27px;
   background-color: rgba(224, 224, 224, 1);
+  cursor: pointer;
 }
 .btn-default {
   border: none;
 }
+.btn-default:hover {
+  border: none;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  background-color: rgba(174, 174, 174, 1);
+}
+
 .btn-hover {
   border: none;
   box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
@@ -165,6 +172,13 @@ section {
   border-width: 1px;
 }
 
+.btn-variant-outline:hover {
+  background-color: rgba(41, 98, 255, 0.1);
+  border-color: #3d5afe;
+  border-width: 1px;
+  color: #3d5afe;
+}
+
 .btn-outline-hover {
   background-color: rgba(41, 98, 255, 0.1);
   border-color: #3d5afe;
@@ -176,6 +190,13 @@ section {
   background-color: white;
   color: #3d5afe;
   border: none;
+}
+
+.btn-variant-text:hover {
+  background-color: rgba(41, 98, 255, 0.1);
+  border: none;
+  color: #3d5afe;
+  border-color: #3d5afe;
 }
 
 .btn-text-hover {
@@ -264,6 +285,20 @@ section {
   border: none;
 }
 
+.btn-blue-hover {
+  background-color: #0039cb;
+  color: white;
+  border: none;
+  box-shadow: rgba(41, 98, 255, 0.2);
+}
+
+.btn-secondary-hover {
+  background-color: #1c313a;
+}
+
+.btn-danger-hover {
+  background-color: #9a0007;
+}
 /* Footer */
 
 footer {
